@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0205029-b981-403f-b2ed-85886515b0a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DLPIntegration/dlpintegration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlaskApi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlaskApi/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlaskApi/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MongoTest/mongo/Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MongoTest/mongo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nosql-scanner.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/config/swagger/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/config/yml/CommonConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/InstancesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/ScannerExecutionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/CronException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/ExistingInstanceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/InstanceInfoValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/InstanceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/ProviderNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/ProviderNotSupportedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/TestConnectionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/exceptions/TimeZoneException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/request/InstanceInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/response/ErrorDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/response/InstanceInfoIdResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/response/InstanceInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/response/MessageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/response/report/ScannerReportDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/response/report/ScannerReportResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/controllers/utils/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/jobs/json/JsonOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/Collection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/ProviderInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/configuration/InstanceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/output/OutputCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/output/OutputDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/output/OutputDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/output/OutputField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/output/OutputScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/report/ScannerReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/model/report/ScannerReportDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/repositories/InstanceInfoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/repositories/ScannerReportRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/repositories/structure/MongoDbStructureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/repositories/structure/MongoDbStructureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/repositories/structure/StructureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/repositories/structure/StructureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/scanners/MongoDbScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/scanners/MongoDbScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/scanners/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/scanners/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/scanners/ScannerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/InstanceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/InstanceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/ScannerExecutionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/ScannerExecutionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/ScannerReportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/ScannerReportServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/StructureRepositoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/services/StructureRepositoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lenio/nosqlscanner/utils/MongoPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/application.yml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Ponies.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ponychallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ponychallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ponychallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ponychallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ponychallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ponychallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ponychallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ponychallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="ponychallenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0205029-b981-403f-b2ed-85886515b0a1" name="Default Changelist" comment="" />
+      <created>1572540242984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572540242984</updated>
+      <workItem from="1572540248948" duration="5227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5227000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32909605" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31497175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ponies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ponychallenge</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_221</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
