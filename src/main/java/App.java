@@ -129,6 +129,7 @@ public class App {
           /*{
                 "direction": "string"
             }*/
+          return "";
     }
 
     private String getRandomPony(){ //Never thought i'd name a function like this
