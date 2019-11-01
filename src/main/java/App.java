@@ -32,7 +32,7 @@ public class App {
         System.out.println("Maze created");
         obj.getMaze(id);
         obj.printMaze(id);
-
+        cleanConsole();
     }
 
     private void getMaze(String id) throws Exception {
@@ -100,6 +100,37 @@ public class App {
 
     }
 
+    private void makeMovement(String id) throws Exception {
+
+        RequestBody body = RequestBody.create(
+                createMovementJSONRequest(),
+                MediaType.parse("application/json; charset=utf-8")
+        );
+
+        Request request = new Request.Builder()
+                .url("https://ponychallenge.trustpilot.com/pony-challenge/maze/" + id)
+                .addHeader("Accept", "application/json")
+                .addHeader("Content-Type", "application/json")
+                .addHeader("User-Agent", "OkHttp Bot")
+                .post(body)
+                .build();
+
+        try (Response response = httpClient.newCall(request).execute()) {
+
+            if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+
+            // Get response body
+            System.out.println(response.body().string());
+        }
+
+    }
+
+    private String createMovementJSONRequest() {
+          /*{
+                "direction": "string"
+            }*/
+    }
+
     private String getRandomPony(){ //Never thought i'd name a function like this
         Random r = new Random();
         int randomNumber = r.nextInt(PONIES_NAMES.length);
@@ -121,6 +152,20 @@ public class App {
                 .put("difficulty", 1).toString();
 
         return json;
+    }
+
+    private static void cleanConsole(){
+        String os = getOs();
+        switch (os){
+            case "Linux":{
+                System.out.print("\033[H\033[2J");
+                System.out.flush();
+            }
+        }
+    }
+
+    private static String getOs(){
+        return System.getProperty("os.name");
     }
 
 
